@@ -26,7 +26,7 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
+  max-width: 1440px;
 `;
 
 export const NavLogo = styled(LinkRouter)`
@@ -64,7 +64,7 @@ export const NavMenu = styled.ul`
   margin-right: -22px;
 
   @media screen and (max-width: 768px) {
-      display: none;
+    display: none;
   }
 `;
 
@@ -82,7 +82,12 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #a2bff4;
+    border-bottom: 3px solid #00e5e5;
+  }
+
+  &:hover {
+    color: #00e5e5;
+    transition: 0.2s ease-in-out;
   }
 `;
 
@@ -91,13 +96,13 @@ export const NavButton = styled.nav`
   align-items: center;
 
   @media screen and (max-width: 768px) {
-      display: none;
+    display: none;
   }
 `;
 
 export const NavButtonLink = styled(LinkRouter)`
   border-radius: 50px;
-  background: #a2bff4;
+  background: #00e5e5;
   white-space: nowrap;
   padding: 10px 22px;
   color: #010606;
@@ -109,8 +114,8 @@ export const NavButtonLink = styled(LinkRouter)`
   text-decoration: none;
 
   &:hover {
-      transition: all 0.2s ease-in-out;
-      background: #fff;
-      color: #010606;
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
   }
 `;
