@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Info from '../components/Info';
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/Info/Data';
 import Cards from '../components/Cards';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,7 @@ const Home = () => {
       <Info {...homeObjTwo} />
       <Info {...homeObjThree} />
       <Cards />
+      <Footer />
     </>
   )
 }
