@@ -39,7 +39,7 @@ export const homeObjThree = {
     lightTextDesc: true,
     topLine: 'Experience',
     headline: "As a programmer, here are some of my skills",
-    description: "I mostly work on frontend development using HTML, CSS, JavaScript, BootStrap, JQuery, using React and Vue framework. I have also worked on backend development using Node and Golang. For database, I have experience in using MongoDB and php. For algorithms and data structure, I have basic knowledge of C. For Object Oriented development, I have used Java in the past. Lastly, for machine learning, I use Python.",
+    description: "I mostly work on frontend development using HTML, CSS, JavaScript, BootStrap, JQuery, using React and Vue framework. I have also worked on backend development using Node and Golang.",
     buttonLabel: 'Learn more',
     imgStart: false,
     img: require('../../images/svg-3.svg').default,

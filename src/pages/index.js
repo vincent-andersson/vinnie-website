@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Info from '../components/Info';
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/Info/Data';
+import Cards from '../components/Cards';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,7 @@ const Home = () => {
       <Info {...homeObjOne} />
       <Info {...homeObjTwo} />
       <Info {...homeObjThree} />
+      <Cards />
     </>
   )
 }
