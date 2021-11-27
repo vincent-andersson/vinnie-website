@@ -1,11 +1,9 @@
 import { useState, useEffect } from 'react';
 
-const useFormRegister = (callback, validate) => {
+const useFormLogin = (callback, validate) => {
   const [values, setValues] = useState({
     username: '',
-    email: '',
-    password: '',
-    password2: ''
+    password: ''
   });
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -35,4 +33,4 @@ const useFormRegister = (callback, validate) => {
   return { handleChange, values, handleSubmit, errors };
 };
 
-export default useFormRegister;
+export default useFormLogin;

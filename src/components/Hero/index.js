@@ -10,6 +10,10 @@ const Hero = () => {
     setHover(!hover);
   };
 
+  const toURL = () => {
+    window.open('https://www.urbandictionary.com/define.php?term=Vinnie', '_blank');
+  }
+
   return (
     <HeroContainer id="home">
       <HeroBackground>
@@ -25,6 +29,7 @@ const Hero = () => {
             to="signup"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
+            onClick={toURL}
             primary='true'
             dark='true'
           >
