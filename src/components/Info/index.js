@@ -3,12 +3,18 @@ import { Button } from '../ButtonElements';
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ButtonWrap, ImgWrap, Img } from './InfoElements';
 import { ArrowForward, ArrowRight } from '../Hero/HeroElements';
 
-const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
+const Info = ({lightBg, id, page, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
   const [hover, setHover] = useState(false);
   
   const onHover = () => {
     setHover(!hover);
   };
+
+  const onClick = () => {
+    if (page.charAt(0) === '/') {
+      window.location.href = page;
+    }
+  }
 
   return (
     <>
@@ -22,9 +28,10 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <ButtonWrap>
                   <Button
-                    to="home"
+                    to={'home'}
                     onMouseEnter={onHover}
                     onMouseLeave={onHover}
+                    onClick={onClick}
                     smooth={true}
                     duration={500}
                     spy={true}
