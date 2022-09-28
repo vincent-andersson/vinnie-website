@@ -11,6 +11,6 @@ export const skillArray = [
 
 export const experienceArray = [
   'Undergraduate degree majoring in Computing and Software Systems at the University of Melbourne',
-  'Participating in Shopee Code League 2020 Machine Learning Competition',
+  'Participated in Shopee Code League 2020 Machine Learning Competition',
   'Internship at PT. Pilar Dinamika Integra as a full stack developer, involved in making a Learning Management System (LMS)'
 ];

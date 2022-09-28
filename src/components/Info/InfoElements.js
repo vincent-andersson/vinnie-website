@@ -51,7 +51,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #00e5e5;
+  color: #7289da;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -94,4 +94,17 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  animation: updown 5s linear infinite;
+
+  @keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+  }
 `;

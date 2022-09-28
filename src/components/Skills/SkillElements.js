@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const PageContainer = styled.div`
   background: linear-gradient(
     90deg,
-    #2b5876 0%,
-    #4e4376 100%
+    #141414 0%,
+    #343434 100%
   );
 `;
 
@@ -36,8 +36,8 @@ export const SkillRow = styled.div`
   color: #fff;
   background: linear-gradient(
     90deg,
-    #4ca1af 0%,
-    #35707a 100%
+    #456789 0%,
+    #778899 100%
   );
 
   padding: 16px;
@@ -53,8 +53,8 @@ export const ExperienceRow = styled.div`
   color: #fff;
   background: linear-gradient(
     90deg,
-    #e29587 0%,
-    #d66d75 100%
+    #3b5998 0%,
+    #8b9dc3 100%
   );
   padding: 16px;
   border-radius: 5px;

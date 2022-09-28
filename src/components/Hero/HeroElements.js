@@ -57,6 +57,20 @@ export const HeroH1 = styled.h1`
   font-size: 48px;
   text-align: center;
 
+  .ityped-cursor {
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     font-size: 40px;
   }
