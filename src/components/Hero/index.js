@@ -29,7 +29,7 @@ const Hero = () => {
   return (
     <HeroContainer id="home">
       <HeroBackground>
-        <VideoBackground autoPlay loop muted src={Video} type='/video/mp4' />    
+        {/* <VideoBackground autoPlay loop muted src={Video} type='/video/mp4' />     */}
       </HeroBackground>
       <HeroContent>
         <HeroH1>Vinnie <span ref={textRef}></span></HeroH1>
