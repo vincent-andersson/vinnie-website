@@ -10,7 +10,8 @@ const Info = ({lightBg, id, page, imgStart, topLine, lightText, headline, darkTe
     setHover(!hover);
   };
 
-  const onClick = () => {
+  const onClick = (e) => {
+    e.preventDefault();
     if (page.charAt(0) === '/') {
       window.location.href = page;
     }
