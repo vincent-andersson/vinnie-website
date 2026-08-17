@@ -15,5 +15,6 @@ export const experienceArray = [
   'Master degree majoring in Information Technology Human-Computer Interaction at the University of Melbourne',
   'Participated in Shopee Code League 2020 Machine Learning Competition',
   'Internship at PT. Pilar Dinamika Integra as a full stack developer, involved in making a Learning Management System (LMS)',
-  'Internship at Uniting Vic.Tas as a full stack developer, created admin interface and connect to Azure cloud server'
+  'Internship at Uniting Vic.Tas as a full stack developer, created admin interface and connect to Azure cloud server',
+  'Full Stack Developer at Trade View Pty Ltd, created trading algorithms, marketplace, AI sales agent, automated marketing and invoicing.'
 ];

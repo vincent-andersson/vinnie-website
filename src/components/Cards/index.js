@@ -21,8 +21,8 @@ const Cards = () => {
         </Card>
         <Card>
           <CardsIcon src={Icon3} />
-          <CardsH2>Reselling Sneakers</CardsH2>
-          <CardsP>Copping limited shoes at retail price and selling them at a higher price.</CardsP>
+          <CardsH2>E-Commerce</CardsH2>
+          <CardsP>Copping limited edition items and selling them for a profit.</CardsP>
         </Card>
       </CardsWrapper>
     </CardsContainer>

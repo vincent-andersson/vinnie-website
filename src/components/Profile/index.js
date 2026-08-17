@@ -29,18 +29,23 @@ const Profile = () => {
         <IntroName>
           <SpanOne>Hello! I Am</SpanOne>
           <SpanTwo>Vincent Andersson</SpanTwo>
-          <SpanThree>Junior Full Stack Developer with experience in web designing and development, also in web monitoring and automation</SpanThree>
+          <SpanThree>Full Stack Software Developer with experience building revenue-generating SaaS features, trading platform
+infrastructure, AI-powered automation tools, and scalable internal systems using React, Node.js, Python, Go,
+PostgreSQL, and cloud platforms. Delivered production systems used across trading, sales, and marketing
+operations, including algorithm marketplaces, AI sales tooling, automated CRM workflows, and cloud-hosted
+enterprise applications. Strong track record of shipping high-impact features end-to-end with measurable
+operational and commercial outcomes.</SpanThree>
         </IntroName>
         <IntroButtonWrapper>
           <Button
-            to="/"
+            to="/resume.pdf"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             onClick={toURL}
             primary='true'
             dark='true'
             >
-            Hire Me {hover ? <ArrowForward /> : <ArrowRight />}
+            View Resume {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </IntroButtonWrapper>
         <IntroIcons>
@@ -64,7 +69,7 @@ const Profile = () => {
           <FloatingDiv image={Crown} text1='Web ' text2='Developer' />
         </FloatingDivWrapperOne>
         <FloatingDivWrapperTwo>
-          <FloatingDiv image={ThumbUp} text1='Sneakers ' text2='Automation' />
+          <FloatingDiv image={ThumbUp} text1='Botting ' text2='Automation' />
         </FloatingDivWrapperTwo>
         <BlurDivOne></BlurDivOne>
         <BlurDivTwo></BlurDivTwo>
