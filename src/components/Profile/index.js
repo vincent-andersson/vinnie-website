@@ -19,10 +19,6 @@ const Profile = () => {
       setHover(!hover);
     };
 
-    const toURL = () => {
-      window.location.href = '/';
-    }
-
   return (
     <Intro>
       <IntroLeft>
@@ -41,7 +37,7 @@ operational and commercial outcomes.</SpanThree>
             to="/resume.pdf"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
-            onClick={toURL}
+            onClick={() => window.open('/resume.pdf', '_blank')}
             primary='true'
             dark='true'
             >
